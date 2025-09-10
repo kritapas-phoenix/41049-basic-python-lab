@@ -1,4 +1,6 @@
 m = str(input('Enter your word: '))
-tee = m.lower()
 
-print(tee)
+if m.lower().startswith('have') :
+    print('OK')
+else:
+    print('NO')
